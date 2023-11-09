@@ -1,0 +1,49 @@
+
+div{
+	display:grid;
+	grid-template-columns:6fr 4fr;
+	grid-gap:3px;
+}
+ aside img{
+	width: 250px;
+	height: 400px;
+	margin-left: 100px;
+	margin-top: 30px;
+	border-left: 4px solid red ;
+	border-right: 4px solid red;
+	border-top:  4px solid green ;
+	border-bottom:4px solid  green;
+}
+p{
+	
+	align-items: center;
+	text-align: justify;
+	padding-left: 30px;
+	color: #fff;
+}
+.d p::first-letter{
+	margin-right:8px;
+	margin-bottom:5px;
+	float: left;
+	line-height: 40%;
+	font-size: 80px;
+	color: red;
+}
+.d h1{
+	color:hotpink;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+video{
+	width: 100px;
+	height: 100px;
+	align-items: center;
+}
+.logo #lo{
+	width: 150px;
+	height: 150px;
+	margin-left: 290px;
+	margin-top: 50px;
+	border-radius: 10px;
+}
